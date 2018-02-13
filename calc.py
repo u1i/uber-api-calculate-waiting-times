@@ -11,7 +11,7 @@ def mean(numbers):
 def myround(x, base=50):
     return int(base * round(float(x)/base))
 
-with open('waiting_times.json') as json_data:
+with open('uber.json') as json_data:
 	d = json.load(json_data)
 
 	trip_num = 1
